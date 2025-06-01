@@ -1,9 +1,9 @@
 === Iconic One ===
 Contributors: themonic
-Requires at least: WordPress 4.7
-Tested up to: 6.6.2
-Requires PHP: 5.2.4
-Version: 3.2.3
+Requires at least: 6.7
+Tested up to: 6.8
+Requires PHP: 7.2
+Version: 3.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, full-width-template, rtl-language-support, theme-options, custom-colors, flexible-header, translation-ready, news, e-commerce, sticky-post, featured-images, threaded-comments
