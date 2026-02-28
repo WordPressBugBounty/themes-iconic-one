@@ -1,9 +1,9 @@
 Changelog for Iconic One WordPress Responsive Theme | Visit http://themonic.com/iconic-one/ for latest version
 
-= 3.2.4=
-* Released: June 1, 2025
-* Theme tested with WordPress version 6.8.1
-* Wordpress requirements updated
+= 3.3=
+* Released: February 28, 2026
+* Compatibility with WordPress version 6.9
+* PHP bug fixes - warnings.
 
 = 3.2.3=
 * Released: October 9, 2024

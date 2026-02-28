@@ -1,7 +1,7 @@
 === Iconic One ===
 Contributors: themonic
 Requires at least: 6.7
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.2
 Version: 3.2.4
 License: GPLv2 or later
@@ -22,6 +22,11 @@ Live demo: https://demo.themonic.com/io/
 5. Navigate to Appearance > Customize in your WordPress dashboard to set theme options.
 
 == Changelog ==
+= 3.3=
+* Released: February 28, 2026
+* Compatibility with WordPress version 6.9
+* PHP bug fixes - warnings.
+* Removed IE older versions support
 
 = 3.2.3=
 * Released: October 9, 2024

@@ -63,13 +63,16 @@ add_action( 'after_setup_theme', 'themonic_setup' );
  require_once( get_template_directory() . '/inc/themonic-customizer.php' );
  
  /* Adding Read More button after excerpts */
-	if( !function_exists( 'io_excerpt_more' ) ) :
-		function io_excerpt_more($more) {
-		global $post;
-		return '… <span class="read-more"><a href="'. get_permalink($post->ID) . '">' . __( 'Read More', 'iconic-one' ) . ' &raquo;</a></span>';
-		}
-		add_filter('excerpt_more', 'io_excerpt_more');
-	endif; //io_excerpt_more
+if( !function_exists( 'io_excerpt_more' ) ) {
+    function io_excerpt_more($more) {
+        $post_id = get_the_ID();
+        if ($post_id) {
+            return '… <span class="read-more"><a href="'. esc_url( get_permalink( $post_id ) ). '">' . esc_html__('Read More', 'iconic-one') . ' &raquo;</a></span>';
+        }
+        return $more;
+    }
+    add_filter( 'excerpt_more', 'io_excerpt_more');
+}//io_excerpt_more
 /*
  * Enqueueing scripts and styles for front-end of the Themonic Framework.
  * @since Iconic One 1.0
@@ -98,12 +101,6 @@ function themonic_scripts_styles() {
 	 */
 	wp_enqueue_style( 'themonic-style', get_stylesheet_uri(), false, '2.4' );
 	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/custom.css' );
-
-	/*
-	 * Loads the Internet Explorer specific stylesheet.
-	 */
-	wp_enqueue_style( 'themonic-ie', get_template_directory_uri() . '/css/ie.css', array( 'themonic-style' ), '20130305' );
-	$wp_styles->add_data( 'themonic-ie', 'conditional', 'lt IE 9' );
 }
 add_action( 'wp_enqueue_scripts', 'themonic_scripts_styles' );
 
