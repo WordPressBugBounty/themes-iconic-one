@@ -65,11 +65,11 @@ add_action( 'after_setup_theme', 'themonic_setup' );
  /* Adding Read More button after excerpts */
 if( !function_exists( 'io_excerpt_more' ) ) {
     function io_excerpt_more($more) {
-        $post_id = get_the_ID();
-        if ($post_id) {
-            return '… <span class="read-more"><a href="'. esc_url( get_permalink( $post_id ) ). '">' . esc_html__('Read More', 'iconic-one') . ' &raquo;</a></span>';
-        }
-        return $more;
+    $post_id = get_the_ID();
+    if ($post_id) {
+        return '… <span class="read-more"><a href="' . esc_url(get_permalink($post_id)) . '">' . esc_html__('Read More: ', 'iconic-one') . esc_html(wp_trim_words(get_the_title($post_id), 10, '…')) . ' &raquo;</a></span>';
+    }
+    return $more;
     }
     add_filter( 'excerpt_more', 'io_excerpt_more');
 }//io_excerpt_more

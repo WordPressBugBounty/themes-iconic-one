@@ -1,9 +1,9 @@
 === Iconic One ===
 Contributors: themonic
 Requires at least: 6.7
-Tested up to: 6.9
+Tested up to: 7
 Requires PHP: 7.2
-Version: 3.2.4
+Version: 3.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, full-width-template, rtl-language-support, theme-options, custom-colors, flexible-header, translation-ready, news, e-commerce, sticky-post, featured-images, threaded-comments
@@ -22,8 +22,14 @@ Live demo: https://demo.themonic.com/io/
 5. Navigate to Appearance > Customize in your WordPress dashboard to set theme options.
 
 == Changelog ==
+= 3.4=
+* Released: June 1, 2026
+* Compatibility with WordPress version 7
+* Bug fixes - warnings.
+* SEO Update for "Read More"
+
 = 3.3=
-* Released: February 28, 2026
+* Released: February 27, 2026
 * Compatibility with WordPress version 6.9
 * PHP bug fixes - warnings.
 * Removed IE older versions support
