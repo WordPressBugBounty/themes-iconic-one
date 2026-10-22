@@ -22,6 +22,11 @@ Live demo: https://demo.themonic.com/io/
 5. Navigate to Appearance > Customize in your WordPress dashboard to set theme options.
 
 == Changelog ==
+
+= 3.5=
+* Released: October 22, 2026
+* Tap fix on Tablet/iPad, responsive fixes
+
 = 3.4=
 * Released: June 1, 2026
 * Compatibility with WordPress version 7

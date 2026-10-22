@@ -1,5 +1,9 @@
 Changelog for Iconic One WordPress Responsive Theme | Visit http://themonic.com/iconic-one/ for latest version
 
+= 3.5=
+* Released: October 22, 2026
+* Tap fix on Tablet/iPad, responsive fixes
+
 = 3.4=
 * Released: June 1, 2026
 * Compatibility with WordPress version 7

@@ -3,11 +3,11 @@ Theme Name: Iconic One
 Theme URI: https://themonic.com/iconic-one/
 Author: Themonic
 Author URI: https://themonic.com
-Description: Iconic One is a premium quality theme with pixel perfect typography and responsiveness and is built for speed with pagespeed score of 95+. Iconic One implements proper SEO so that your content will rank high and is compatible with AIOSEO and Yoast SEO, It makes proper use of Live customizer that allows you to setup the theme in minutes, you can easily upload the logo, modify the background color, footer text, social media urls without touching any line of code. It utilizes latest HTML 5, CSS3 and wordpress native functions for creating the awesomeness that looks good on every browser. Support is free, access the support here http://themonic.com/support/, Report issues and feedback at http://themonic.com/feedback/.
+Description: Iconic One is a premium quality theme with pixel perfect typography and responsiveness and is built for speed with pagespeed score of 95+. Iconic One implements proper SEO so that your content will rank high and is compatible with AIOSEO and Yoast SEO, It makes proper use of Live customizer that allows you to setup the theme in minutes, you can easily upload the logo, modify the background color, footer text, social media urls without touching any line of code. It utilizes latest HTML 5, CSS3 and WordPress native functions for creating the awesomeness that looks good on every browser. Support is free, access the support here http://themonic.com/support/, Report issues and feedback at http://themonic.com/feedback/.
 Requires at least: 6.7
-Tested up to: 7
+Tested up to: 7.1
 Requires PHP: 7.2
-Version: 3.4
+Version: 3.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, full-width-template, rtl-language-support, theme-options, custom-colors, flexible-header, translation-ready, news, e-commerce, sticky-post, featured-images, threaded-comments
@@ -16,7 +16,7 @@ Text Domain: iconic-one
 Note: Iconic One theme supports child themes and custom.css for extensive customization without breaking the theme.
 It is recommended to use those instead of modifying core files. - http://codex.wordpress.org/Child_Themes
 
-©2023 Shashank Singh, Themonic.com
+©2026 Shashank Singh, Themonic.com
 */
 /*Imports custom css file for easy customization.
 Edit the file here http://yoursite.com/wordpress/wp-admin/theme-editor.php?file=custom.css&theme=iconic-one
@@ -1678,8 +1678,12 @@ picture img {
 	.themonic-nav li a {
 		border-bottom: 0;
 		color: #6a6a6a;
-		line-height: 3.692307692;
-		padding: 0 20px;
+		display: inline-block;
+		line-height: 1.4;
+		padding: 14px 20px;
+		min-height: 44px;
+		box-sizing: border-box;
+		vertical-align: middle;
 		text-transform: uppercase;
 		white-space: nowrap;
 		transition: .3s ease 0s;
@@ -1704,7 +1708,9 @@ picture img {
 		left: 100%;
 		border-top: 0;
 	}
-	.themonic-nav ul li:hover > ul {
+	.themonic-nav ul li:hover > ul,
+	.themonic-nav ul li.focus > ul,
+	.themonic-nav ul li.touch-open > ul {
 		border-left: 0;
 		display: block;
 	}

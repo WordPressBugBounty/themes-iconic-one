@@ -15,7 +15,7 @@
 		</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 		<div class="site-wordpress">
-				<a href="https://themonic.com/iconic-one/">Iconic One</a> Theme | Powered by <a href="https://wordpress.org">Wordpress</a>
+				<a href="https://themonic.com/iconic-one/">Iconic One</a> Theme | Powered by <a href="https://wordpress.org">WordPress</a>
 				</div><!-- .site-info -->
 				<div class="clear"></div>
 </div><!-- #page -->

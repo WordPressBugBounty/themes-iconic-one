@@ -67,11 +67,11 @@ Iconic One is also supplied with custom.css file (Appearance -> Theme File Edito
 and all the files you have modified. For smaller customizations you can use Customizer -> Additional CSS and that is preferred way these days.</p>
 <h3>Idea Behind Iconic One</h3>
 <p>The Idea behind Iconic One is to equip the bloggers with a theme so that they don't have to look anywhere else,
-It has been designed and coded in such a way that even if you are new to Wordpress 
+It has been designed and coded in such a way that even if you are new to WordPress 
 you will be able to make the most out of it.
 </p>
 <h3>Iconic One is Safe</h3>
-<p>Iconic One uses Wordpress native funtions to generate thumbnails without relying on third party scripts 
+<p>Iconic One uses WordPress native funtions to generate thumbnails without relying on third party scripts 
 such as timthumb. Iconic One is also properly coded to avoid plugin conflicts and is customizable.
 </p>
 <h3>Built for Speed</h3>
