@@ -23,6 +23,10 @@ Live demo: https://demo.themonic.com/io/
 
 == Changelog ==
 
+= 3.5.1=
+* Released: October 22, 2026
+* Bug fixes
+
 = 3.5=
 * Released: October 22, 2026
 * Tap fix on Tablet/iPad, responsive fixes

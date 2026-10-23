@@ -7,7 +7,7 @@ Description: Iconic One is a premium quality theme with pixel perfect typography
 Requires at least: 6.7
 Tested up to: 7.1
 Requires PHP: 7.2
-Version: 3.5
+Version: 3.5.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, full-width-template, rtl-language-support, theme-options, custom-colors, flexible-header, translation-ready, news, e-commerce, sticky-post, featured-images, threaded-comments
@@ -1686,7 +1686,6 @@ picture img {
 		vertical-align: middle;
 		text-transform: uppercase;
 		white-space: nowrap;
-		transition: .3s ease 0s;
 	}
 	.themonic-nav li a:hover {
 		color: #fff;
@@ -1795,6 +1794,22 @@ picture img {
 	.commentlist .children {
 		margin-left: 48px;
 	}
+	.themonic-nav ul.nav-menu > li {
+	vertical-align: top;
+	}
+    .themonic-nav ul.nav-menu > li > a {
+	border-bottom: 0;
+	display: inline-block;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	vertical-align: top;
+	text-transform: uppercase;
+	white-space: nowrap;
+	transition: none;
+	text-decoration: none;
+    }
 }
 
 /* Minimum width of 960 pixels. */
